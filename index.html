@@ -1,0 +1,135 @@
+<!DOCTYPE html><!-- It will specify the version of the HTML(latest one is HTML 5) -->
+<html lang="en" dir="ltr">
+<!-- This will specifies everything in between html tag is a html code -->
+
+<head>
+  <!-- It holds the information about the web page and it tells the browser how it should handle the page -->
+  <meta charset="utf-8">
+  <!-- The data that is used to represent other data is known as metadata. For example, the index of a book serves as a metadata for the contents in the book. 2.charset=UTF-8 stands for Character Set = Unicode Transformation Format-8, The HTML5 specification encourages web developers to use the UTF-8 character set, which covers almost all of the characters and symbols in the world! -->
+  <!-- <meta name="description" content="Self learning" /> -->
+  <title>Venkat's personal website</title><!-- This represents the title of the webpage. -->
+</head>
+
+<body>
+  <!-- Body contains the content of the page -->
+  <table cellspacing="20">
+    <!-- cell spacing attribute defines the size of the space between two cells in a percentage value or pixels. -->
+    <tr>
+      <td>
+        <!-- Image element used to add the image to the web browser. src select take location of the image, width used to resize the image and alt used to give the alternate name to the image if it is not visible in webpage -->
+        <img src="Images/circle-cropped.PNG" width="200" alt="Venkat Image"> <!-- select the location from the folder in the system. -->
+        <!--  <img src="https://hosting.photobucket.com/images/i/VenkateshPolthi/Venkat_P.jpg?width=285&height=175&crop=fill" alt="Venkat Image"> -->
+        <!-- select the location from the browser in the system. -->
+      </td>
+      <td>
+        <h1>Polthi Venkateswarlu</h1>
+        <p>
+          <!--  <i>Softrare Engineer at HCL technologies</i>  -->
+          <!-- The HTML <i> element defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic. -->
+
+          <em>Softrare Engineer at <strong><a href="https://www.hcltech.com/about-us/about-hcl-technologies">HCL technologies</a></strong></em> <!-- em is the preferable one -->
+          <!-- The HTML <em> element defines emphasized text. The content inside is typically displayed in italic. -->
+          <!--<strong></strong> is preferable than <b></b> -->
+        </p>
+        <p>I am a engineer at HCL technologies. My research focuses on the volvocars project</p>
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <h3>Technologies</h3>
+  <ul>
+    <!-- unordered list, which will display test with bullet(.) numbers -->
+    <!-- Bullet list -->
+    <li><a href="https://www.youtube.com/watch?v=Qgl81fPcLc8">Java</a></li>
+    <!--This is not self closing tag. The <a> tag defines a hyperlink, which is used to link from one page to another.
+          The most important attribute of the <a> element is the href attribute, which indicates the link's destination.-->
+    <ul>
+      <!-- Bullet list -->
+      <li>OOPS</li>
+      <li>Hibernat</li>
+      <li>Springs</li>
+      <li>Struts</li>
+    </ul>
+    <li>Python</li>
+    <li>HTML</li>
+    <li>CSS</li>
+  </ul>
+  <hr>
+  <h3>Work Experience</h3>
+  <table cellspacing="10">
+    <!-- <table border="1"> (This will create the borders of the table). Table used for good allignment of Rows and Cells-->
+    <thead>
+      <!-- Table header and body is to add good styles to the table using CSS -->
+      <th>Date</th>
+      <!--This tags wull work outside thead as well. Table header cell is to add the header with auto bold text to the table -->
+      <th>Work</th>
+    </thead>
+    <tbody>
+      <tr>
+        <!-- Table rows is to add rows to the table -->
+        <td>2016-2020</td> <!-- table cell used to insert data to the cells -->
+        <td>Bachelor of Technology</td>
+      </tr>
+      <tr>
+        <td>2020</td>
+        <td>Software Engineer at HCL Technologies</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <!-- <h3>Skills</h3>
+  <table border="1">
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>C Language</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Java</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>HTML</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Springs</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table> -->
+  <h3>Skills</h3>
+  <table cellspacing="10">
+    <tr>
+      <td>C Language</td>
+      <td>⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Java</td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Springs</td>
+      <td>⭐⭐⭐</td>
+    </tr>
+  </table>
+  <hr>
+  <a href="hobbies.html">My Hobbies</a>
+  <br>
+  <br>
+  <a href="Contact Details.html">My Contact Details</a>
+</body>
+
+</html>
